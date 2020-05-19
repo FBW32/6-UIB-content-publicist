@@ -1,0 +1,30 @@
+body {
+  background-color: lightpink;
+}
+h1 {
+  text-align: center;
+  color: midnightblue;
+}
+img {
+  width: 120px;
+}
+ul li {
+  list-style-type: none;
+  text-align: center;
+}
+a img:hover {
+  border: solid lightslategray 2px;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
