@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
